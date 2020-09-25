@@ -7,7 +7,7 @@
     top: 0px;
     bottom: 0px;
     background-color:black;
-    width: 1600px;
+    width: 100%;
     height: 4105px;
     position: absolute;
     overflow: auto;
@@ -523,6 +523,7 @@ color: #373737;
     top: 238px;
 }
 
+
 .text-in-play-market-btn{
     position: absolute;
     width: 94px;
@@ -557,6 +558,10 @@ color: #373737;
     align-self: center;
     margin: 0px 0px;
 }
+.text-in-play-market-btn:hover {
+    background: #009CC2;
+}
+
 .bg7{
     position: absolute;
     width: 1600px;
@@ -671,7 +676,7 @@ color: #373737;
 }
 .active-menu-item{
     color: #ffffff;
-    width: 38px;
+    
     height: 21px;
     top: 38px;
 }
@@ -692,7 +697,7 @@ color: #373737;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
+    position: absolute;
     width: 1600px;
     z-index:99999999; 
     
@@ -708,7 +713,37 @@ color: #373737;
 
 
 .logo{
-    padding-left: 121px;
+    
+    margin-left: 111px;
     width: 44px;
+    border-radius: 50%;
     height: 44px;
+}
+.logo:hover{
+   box-shadow: 0 4px 8px 0 rgba(170, 182, 170, 0.4), 0 6px 20px 0 rgba(116, 110, 110, 0.19);
+}
+
+#syllabus:hover{
+    border-bottom: solid white 0.5px;
+}
+#faq:hover{
+    border-bottom: solid white 0.5px;
+}
+#projects:hover{
+    border-bottom: solid white 0.5px;
+}
+#about:hover{
+    border-bottom: solid white 0.5px;
+}
+#svg1:hover{
+    border-bottom: solid white 0.5px;
+}
+#svg2:hover{
+    border-bottom: solid white 0.5px;
+}
+#svg3:hover{
+    border-bottom: solid white 0.5px;
+}
+#svg4:hover{
+    border-bottom: solid white 0.5px;
 }
